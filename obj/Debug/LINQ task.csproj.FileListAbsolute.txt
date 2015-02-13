@@ -1,0 +1,8 @@
+D:\Users\Saruchi\Documents\GitHub\LINQ task\bin\Debug\LINQ task.exe
+D:\Users\Saruchi\Documents\GitHub\LINQ task\bin\Debug\LINQ task.pdb
+D:\Users\Saruchi\Documents\GitHub\LINQ task\obj\Debug\LINQ task.csprojResolveAssemblyReference.cache
+D:\Users\Saruchi\Documents\GitHub\LINQ task\obj\Debug\LINQ_task.Form1.resources
+D:\Users\Saruchi\Documents\GitHub\LINQ task\obj\Debug\LINQ_task.Properties.Resources.resources
+D:\Users\Saruchi\Documents\GitHub\LINQ task\obj\Debug\LINQ task.csproj.GenerateResource.Cache
+D:\Users\Saruchi\Documents\GitHub\LINQ task\obj\Debug\LINQ task.exe
+D:\Users\Saruchi\Documents\GitHub\LINQ task\obj\Debug\LINQ task.pdb
