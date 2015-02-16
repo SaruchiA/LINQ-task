@@ -33,13 +33,16 @@
             this.label2 = new System.Windows.Forms.Label();
             this.comboEmployee = new System.Windows.Forms.ComboBox();
             this.comboShift = new System.Windows.Forms.ComboBox();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.textDaysOfEmp = new System.Windows.Forms.TextBox();
+            this.textEmployeesOnDay = new System.Windows.Forms.TextBox();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
+            this.button2 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(257, 114);
+            this.button1.Location = new System.Drawing.Point(158, 116);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(91, 23);
             this.button1.TabIndex = 0;
@@ -81,29 +84,58 @@
             this.comboShift.Size = new System.Drawing.Size(121, 21);
             this.comboShift.TabIndex = 6;
             // 
-            // textBox1
+            // textDaysOfEmp
             // 
-            this.textBox1.Location = new System.Drawing.Point(32, 179);
-            this.textBox1.Multiline = true;
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(168, 171);
-            this.textBox1.TabIndex = 7;
+            this.textDaysOfEmp.Location = new System.Drawing.Point(125, 168);
+            this.textDaysOfEmp.Multiline = true;
+            this.textDaysOfEmp.Name = "textDaysOfEmp";
+            this.textDaysOfEmp.Size = new System.Drawing.Size(168, 171);
+            this.textDaysOfEmp.TabIndex = 7;
             // 
-            // textBox2
+            // textEmployeesOnDay
             // 
-            this.textBox2.Location = new System.Drawing.Point(278, 179);
-            this.textBox2.Multiline = true;
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(177, 171);
-            this.textBox2.TabIndex = 8;
+            this.textEmployeesOnDay.Location = new System.Drawing.Point(442, 168);
+            this.textEmployeesOnDay.Multiline = true;
+            this.textEmployeesOnDay.Name = "textEmployeesOnDay";
+            this.textEmployeesOnDay.Size = new System.Drawing.Size(177, 171);
+            this.textEmployeesOnDay.TabIndex = 8;
+            // 
+            // label3
+            // 
+            this.label3.Location = new System.Drawing.Point(472, 364);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(131, 43);
+            this.label3.TabIndex = 9;
+            this.label3.Text = "Employees available On Selected Day";
+            // 
+            // label4
+            // 
+            this.label4.Location = new System.Drawing.Point(144, 354);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(139, 43);
+            this.label4.TabIndex = 10;
+            this.label4.Text = "Availability Days of Selected Employee";
+            // 
+            // button2
+            // 
+            this.button2.Location = new System.Drawing.Point(463, 109);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(121, 36);
+            this.button2.TabIndex = 11;
+            this.button2.Text = "fetch available Employees";
+            this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(926, 430);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.button2);
+            this.Controls.Add(this.label4);
+            this.Controls.Add(this.label3);
+            this.Controls.Add(this.textEmployeesOnDay);
+            this.Controls.Add(this.textDaysOfEmp);
             this.Controls.Add(this.comboShift);
             this.Controls.Add(this.comboEmployee);
             this.Controls.Add(this.label2);
@@ -123,8 +155,11 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.ComboBox comboEmployee;
         private System.Windows.Forms.ComboBox comboShift;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox textDaysOfEmp;
+        private System.Windows.Forms.TextBox textEmployeesOnDay;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Button button2;
     }
 }
 
